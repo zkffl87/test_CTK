@@ -1,0 +1,19 @@
+{
+	"name": "apify-target-actor",
+	"version": "0.1.0",
+	"description": "Target product scraper.",
+	"exports": false,	
+	"dependencies": {
+		"apify": "^0.21.8",
+		"cheerio": "^1.0.0-rc.3",
+		"html-entities": "^1.2.1",
+		"mysql": "^2.18.1",
+		"md5": "^2.3.0"
+    },
+	"devDependencies": {},
+	"scripts": {
+		"start": "node src/main.js"
+	},
+	"author": "Tugkan Cengiz",
+	"license": "ISC"
+}

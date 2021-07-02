@@ -1,0 +1,54 @@
+{
+    "title": "Target.com Restaurant Scraper",
+    "description": "An actor that scrapes products from target.com",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "keyword": {
+            "title": "Search Keyword",
+            "type": "string",
+            "description": "Keyword that you want to search",
+            "editor": "textfield"
+        },
+        "category": {
+            "title": "Search Category",
+            "type": "string",
+            "description": "Category that you want to search",
+            "editor": "textfield"
+        },
+        "pages": {
+            "title": "Pages",
+            "type": "string",
+            "description": "Pages for search. 1-5 for sequential usage and 1,5,6 for single usage",
+            "editor": "textfield"
+        },
+        "lat": {
+            "title": "Latitude",
+            "type": "string",
+            "description": "Latitude for shipping info",
+            "editor": "textfield",
+            "prefill": "40.766"
+        },
+        "lng": {
+            "title": "Longitude",
+            "type": "string",
+            "description": "Longitude for shipping info",
+            "editor": "textfield",
+            "prefill": "-74.030"
+        },
+        "zip": {
+            "title": "Zipcode",
+            "type": "string",
+            "description": "Zip for shipping info",
+            "editor": "textfield",
+            "prefill": "07086"
+        },
+        "state": {
+            "title": "State",
+            "type": "string",
+            "description": "State for shipping info",
+            "editor": "textfield",
+            "prefill": "NJ"
+        }
+    }
+}
